@@ -32,9 +32,10 @@ body {
 /* Custom Button Styles */
 
 .btn-dark {
-    border-radius: 0;
+    border-radius: 0.5;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+	font-weight: bold;
+    background-color: rgb(79,188,36);
 }
 
 .btn-dark:hover,
@@ -45,9 +46,10 @@ body {
 }
 
 .btn-light {
-    border-radius: 0;
-    color: #333;
-    background-color: rgb(255,255,255);
+    border-radius: 0.5;
+    color: #FFF;
+	font-weight: bold;
+    background-color: rgb(79,188,36);
 }
 
 .btn-light:hover,
