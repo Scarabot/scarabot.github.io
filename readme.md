@@ -1,1 +1,2 @@
-![live example](img/header.png)
+
+[![ScaraBot](img/header.png)](https://scarabot.github.io)
