@@ -4,10 +4,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta
+      name="description"
+      content="Open Source Robotic Platform for Education"
+    />
+    <meta name="author" content="Jeffrey Cousineau" />
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>Scarabot - Open Source Robotic Platform for Education</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -39,14 +42,7 @@
         src: url(fonts/Roboto-Regular.ttf);
       }
 
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h5,
-      p,
-      a {
+      h1 {
         font-family: Robota, Roboto;
       }
     </style>
@@ -85,17 +81,29 @@
 
     <!-- Header -->
     <header id="top" class="header">
-      <div class="text-vertical-center">
-        <img class="img-portfolio img-responsive" src="img/profile.png" />
-        <h1>
-          <span style="color: #303545;">Scara</span
-          ><span style="color: #4fbc24;">Bot</span>
-        </h1>
-        <h3 style="color: #aaaaaa;">
-          Open Source Robotic Platform for Education
-        </h3>
-        <br />
-        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+      <h1>
+        <span style="color: #303545;">Scara</span
+        ><span style="color: #4fbc24;">Bot</span>
+      </h1>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <div class="text-vertical-center">
+                <h1>ScaraBot</h1>
+                <h2>Open Source Robotic Platform for Education</h2>
+            </div>
+ 
+          <h4 style="padding-bottom: 1.5rem;">
+            Let's ease access to robotics by providing a cheap and open-source educational robotics platform. Become part of the solution in making affordable and well-designed robots. 
+          </h4>
+          <a href="https://openscarabot.atlassian.net/l/c/ttt1TzUe" target="_blank" class="btn btn-lg btn-success">JOIN THE TEAM</a>
+
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div id="header-logo"></div>
+        </div>
+      </div>
+
       </div>
     </header>
 
@@ -105,8 +113,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h3>
-              Let's ease access to robotics by providing a cheap and open-source
-              educational robotics platform.
+                Let's make learning robotics accessible and affordable. 
             </h3>
           </div>
         </div>
@@ -126,33 +133,42 @@
             <div class="row">
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
-                  <img
-                    style="border-radius: 50%;"
-                    class="img-portfolio img-responsive"
-                    src="img/contributors/jeffreycousineau.jpeg"
-                  />
+                    <img
+                        style="border-radius: 50%;"
+                        class="img-portfolio img-responsive"
+                        src="img/contributors/jeffreycousineau.jpeg"
+                    />
+                    <h4>
+                        <strong>Jeffrey Cousineau</strong>
+                    </h4>
+                    <p>
+                    Manufacturing automation engineer. École de technologie supérieure alumni.
+                    </p>
+                    <a href="https://github.com/jeffcousineau" target="_blank">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
 
-                  <h4>
-                    <strong>Jeffrey Cousineau</strong>
-                  </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  </p>
-                  <a href="https://github.com/jeffcousineau"
-                    ><i
-                      style="color: #fff; margin: 5px;"
-                      class="fab fa-github fa-2x"
-                    ></i
-                  ></a>
-
-                  <a href="https://www.linkedin.com/in/jeffreycousineau/"
-                    ><i
-                      style="color: #fff; margin: 5px;"
-                      class="fab fa-linkedin fa-2x"
-                    ></i
-                  ></a>
+                    <a href="https://www.linkedin.com/in/jeffreycousineau/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    
                 </div>
-              </div>
+            </div>
+            <div class="col-md-6 col-sm-6"></div>
+            <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                    <a href="https://openscarabot.atlassian.net/l/c/ttt1TzUe" target="_blank">
+                        <img
+                        style="border-radius: 50%;"
+                        class="img-portfolio img-responsive"
+                        src="img/contributors/contribute_prof.png"
+                        />               
+                    </a>
+                    <h4>
+                        <strong>Make Your Mark</strong>
+                     </h4>
+                    <p>Become part of the team.</p>
+                </div>
             </div>
             <!-- /.row (nested) -->
           </div>
@@ -162,6 +178,22 @@
       </div>
       <!-- /.container -->
     </section>
+
+    <aside class="call-to-action" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2>Join ScaraBot, Become Part of the Solution</h2>
+              <a
+                href="https://openscarabot.atlassian.net/l/c/ttt1TzUe"
+                target="_blank"
+                class="btn btn-lg btn-success"
+                >Get Started</a
+              >
+            </div>
+          </div>
+        </div>
+      </aside>
 
     <!-- Callout -->
     <aside class="callout">
@@ -216,20 +248,6 @@
 	-->
     <!-- Call to Action -->
 
-    <aside class="call-to-action bg-primary" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h3>Want to help us and contribute to the project ?</h3>
-            <a
-              href="https://openscarabot.atlassian.net/l/c/ttt1TzUe"
-              class="btn btn-lg btn-light"
-              >More Info</a
-            >
-          </div>
-        </div>
-      </div>
-    </aside>
 
     <!-- Map -->
     <!--
@@ -247,39 +265,35 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h4><strong>ScaraBot</strong></h4>
-            <i class="fa fa-envelope-o fa-fw"></i>
+            <h4 style="font-family: Robota, Roboto;"><strong>ScaraBot</strong></h4>
             <a href="mailto:openscarabot@gmail.com">openscarabot@gmail.com</a>
             <br />
             <br />
             <ul class="list-inline">
               <li>
-                <a href="https://github.com/scarabot"
-                  ><i class="fab fa-github fa-3x"></i
-                ></a>
+                <a href="https://github.com/scarabot" target="_blank">
+                    <i class="fab fa-github fa-3x"></i>
+                </a>
               </li>
               <li>
-                <a
-                  href="https://openscarabot.atlassian.net/wiki/spaces/SCA/overview"
-                  ><i class="fab fa-confluence fa-3x"></i
-                ></a>
+                <a href="https://openscarabot.atlassian.net/wiki/spaces/SCA/overview" target="_blank">
+                  <i class="fab fa-confluence fa-3x"></i>
+                </a>
               </li>
               <li>
-                <a
-                  href="https://openscarabot.atlassian.net/secure/BrowseProjects.jspa"
-                  ><i class="fab fa-jira fa-3x"></i
-                ></a>
+                <a href="https://openscarabot.atlassian.net/secure/BrowseProjects.jspa" target="_blank">
+                  <i class="fab fa-jira fa-3x"></i>
+                </a>
               </li>
               <li>
-                <a
-                  href="https://join.slack.com/t/openscarabot/shared_invite/zt-ggh9wuk1-RLv9vjqydCWQv3BDtAYGkw"
-                  ><i class="fab fa-slack fa-3x"></i
-                ></a>
+                <a href="https://join.slack.com/t/openscarabot/shared_invite/zt-ggh9wuk1-RLv9vjqydCWQv3BDtAYGkw" target="_blank">
+                    <i class="fab fa-slack fa-3x"></i>
+                </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/OpenScaraBot/"
-                  ><i class="fab fa-facebook fa-3x"></i
-                ></a>
+                <a href="https://www.facebook.com/OpenScaraBot/" target="_blank">
+                    <i class="fab fa-facebook fa-3x"></i>
+                </a>
               </li>
             </ul>
             <hr class="small" />
